@@ -1,0 +1,14 @@
+C:\Users\lenovo\Desktop\InnoTym\InnoTym.api\InnoTym.api\bin\Debug\netcoreapp2.2\InnoTym.api.deps.json
+C:\Users\lenovo\Desktop\InnoTym\InnoTym.api\InnoTym.api\bin\Debug\netcoreapp2.2\InnoTym.api.runtimeconfig.json
+C:\Users\lenovo\Desktop\InnoTym\InnoTym.api\InnoTym.api\bin\Debug\netcoreapp2.2\InnoTym.api.runtimeconfig.dev.json
+C:\Users\lenovo\Desktop\InnoTym\InnoTym.api\InnoTym.api\bin\Debug\netcoreapp2.2\InnoTym.api.dll
+C:\Users\lenovo\Desktop\InnoTym\InnoTym.api\InnoTym.api\bin\Debug\netcoreapp2.2\InnoTym.api.pdb
+C:\Users\lenovo\Desktop\InnoTym\InnoTym.api\InnoTym.api\obj\Debug\netcoreapp2.2\InnoTym.api.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\InnoTym\InnoTym.api\InnoTym.api\obj\Debug\netcoreapp2.2\InnoTym.api.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\InnoTym\InnoTym.api\InnoTym.api\obj\Debug\netcoreapp2.2\InnoTym.api.RazorAssemblyInfo.cache
+C:\Users\lenovo\Desktop\InnoTym\InnoTym.api\InnoTym.api\obj\Debug\netcoreapp2.2\InnoTym.api.RazorAssemblyInfo.cs
+C:\Users\lenovo\Desktop\InnoTym\InnoTym.api\InnoTym.api\obj\Debug\netcoreapp2.2\InnoTym.api.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\InnoTym\InnoTym.api\InnoTym.api\obj\Debug\netcoreapp2.2\InnoTym.api.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\InnoTym\InnoTym.api\InnoTym.api\obj\Debug\netcoreapp2.2\InnoTym.api.RazorTargetAssemblyInfo.cache
+C:\Users\lenovo\Desktop\InnoTym\InnoTym.api\InnoTym.api\obj\Debug\netcoreapp2.2\InnoTym.api.dll
+C:\Users\lenovo\Desktop\InnoTym\InnoTym.api\InnoTym.api\obj\Debug\netcoreapp2.2\InnoTym.api.pdb

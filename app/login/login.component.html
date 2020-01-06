@@ -1,0 +1,70 @@
+
+
+
+<div class="container" >
+    <div class="col-md-6 offset-md-3" >
+        
+    <!-- Login Form -->
+    <div class="card card body crdstyl"[hidden]="showLogin">
+       <h3 style="text-align: center">Login</h3>
+<form #loginForm= "ngForm">
+     <div class="form-group">
+            <label for="useremail">Email</label>
+            <input type="email" class="form-control" name="useremail" [(ngModel)]="loginDetails.useremail" required
+            #email = "ngModel" [ngClass]="{'is-invalid':loginForm.submitted && email.invalid}">
+            <div *ngIf = "loginForm.submitted && email.invalid">
+            <span class="form-text text-muted" *ngIf="email.errors.required">This field is required</span>
+            <span class="form-text text-muted" *ngIf="email.errors.email">Invalid</span>
+            </div>
+        </div>
+    <div class="form-group">
+    <label>Password</label>
+    <input type="password" class="form-control" name="password" [(ngModel)]="loginDetails.password" required
+    #pass = "ngModel" [ngClass]="{'is-invalid':loginForm.submitted && pass.invalid}" minlength="6" maxlength="10">
+    <div *ngIf ="loginForm.submitted && pass.invalid">
+    <span class="form-text text-muted" *ngIf="pass.errors.required">This field is required</span>
+    <span class="form-text text-muted" *ngIf="pass.errors.minlength">Passwrd should be of minimum 6 characters.</span>
+    <span class="form-text text-muted" *ngIf="pass.errors.maxlength">Passwrd should be of maximum 10 characters.</span>
+    </div>
+</div>
+<div class="btnstyl">
+    <button type="submit" class="btn btn-primary" (click)=onSubmit()>Login</button>
+    <button type="reset" class="btn btn-primary">Reset</button>
+</div>
+        <a href="javascript:;" class="float-right" (click)=showSignUpForm()>Click here to Sign-up</a>
+    <br>
+    <div class="alert alert-danger" [hidden]="showLoginError">
+        <h6>Failed to login. Please try again.</h6>
+    </div>
+</form>
+</div>
+<!-- login form close -->
+
+<!-- sign-up form -->
+<div class="card card body crdstyl" [hidden]="showSignUp">
+        <h3 style="text-align: center">Sign-up</h3>
+<form name=signUpDetails>
+        <div class="form-group">
+             <label class="col-form-lable col-form-lable-sm mr-2"> User Name</label>
+             <input type="text" class="form-control form-control-sm" name="Name" [(ngModel)]="signupDetails.Name" required>
+        </div>
+        <div class="form-group">
+             <label class="col-form-lable col-form-lable-sm mr-2"> Email</label>
+             <input type="email" class="form-control form-control-sm" name="email" [(ngModel)]="signupDetails.email" required>
+        </div>
+        <div class="form-group">
+            <label class="col-form-lable col-form-lable-sm mr-2">Password</label>
+            <input type="password" class="form-control form-control-sm" name="password" [(ngModel)]="signupDetails.password" required>
+        </div>
+        <div class="form-group">
+             <label class="col-form-lable col-form-lable-sm mr-2">Amount</label>
+             <input type="number" class="form-control form-control-sm" name="amount" [(ngModel)]="signupDetails.amount" required>
+        </div>
+        <button type="submit" class="btn btn-primary" (click)=login()>Sign-up</button>
+        <a href="javascript:;" class="float-right" (click)=showLoginForm()>Click here to Login</a>
+ </form>
+</div>
+<!-- signup form close -->
+
+</div>
+</div>

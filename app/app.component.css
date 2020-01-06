@@ -1,0 +1,7 @@
+.bkgrd{
+    /* position: relative; */
+    min-height: 100%;
+    background: url(./../../src/assets/images/bkgrd.jpg) center center fixed;
+    background-size: cover;
+    /* height: absolute; */
+}

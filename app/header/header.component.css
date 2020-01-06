@@ -1,0 +1,14 @@
+.navclr{
+    background-color: #65CCB8;
+    height: 80px;
+    text-decoration-line: blink;
+}
+.navt a {
+    color: #182628;
+  }
+  .navt li a:hover {
+    color:white;
+  }
+  .tglbtn{
+    color: #faddd9;
+  }

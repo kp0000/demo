@@ -1,0 +1,22 @@
+<p></p>
+<div class="container mt-30">
+    <h4 style="text-align: center" class="mb-30">User Report</h4>
+    <table class="table table-hover table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor = "let item of userList">
+                <td>{{item.userId}}</td>
+                <td>{{item.name}}</td>
+                <td>{{item.email}}</td>
+                <td>{{item.amount}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

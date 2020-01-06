@@ -1,0 +1,22 @@
+<br>
+<div class="container col-md-6 offset-md-3 cntr">
+    <div class="card card body bgclr">
+        <h3 >Add Money</h3><br>
+        <form name=updateamount>
+            <div class="form-group">
+                <span>
+                <label >Amount </label>
+                <input type="number" name="amount" [(ngModel)]="amount" required>
+                </span>
+            </div>
+            <button type="submit" class="btn btn-primary" (click)=addMoney()>Add</button>
+        </form>
+   <br>
+<div class="alert alert-success mt-30" [hidden]="showSuccess">
+    Amount updated successfully.
+</div>
+<div class="alert alert-danger mt-30" [hidden]="showError">
+    {{message}}
+</div>
+</div>
+</div>

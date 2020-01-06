@@ -1,0 +1,25 @@
+<div class="container mt-30">
+    <h4 style="text-align: center" class="mb-30">Transaction History</h4>
+    <table class="table table-hover table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Transaction Id</th>
+                <th>Reference Id</th>
+                <th>Reference Name</th>
+                <th>Date</th>
+                <th>Transaction Amount</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor = "let item of myTrans">
+                <td>{{item.transactionId}}</td>
+                <td>{{item.refId}}</td>
+                <td>{{item.refUserName}}</td>
+                <td>{{item.date}}</td>
+                <td>{{item.transactionAmount}}</td>
+                <td>{{item.transactionType}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
